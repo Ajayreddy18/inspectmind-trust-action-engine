@@ -1,0 +1,37 @@
+[
+  {
+    "id": "f-101",
+    "issue_type": "fire_door_mismatch",
+    "sheet": "A601",
+    "discipline": "architectural",
+    "text": "Door D12 marked solid wood, schedule says HM-90 fire-rated",
+    "cv_confidence": 0.88,
+    "evidence_regions": [
+      "A601:x120,y80,w140,h60",
+      "D201:x98,y110,w150,h55"
+    ]
+  },
+  {
+    "id": "f-102",
+    "issue_type": "fire_door_mismatch",
+    "sheet": "D201",
+    "discipline": "schedule",
+    "text": "Door D12 HM-90 conflict with architectural tag",
+    "cv_confidence": 0.91,
+    "evidence_regions": [
+      "D201:x98,y110,w150,h55"
+    ]
+  },
+  {
+    "id": "f-103",
+    "issue_type": "wall_thickness_conflict",
+    "sheet": "S401",
+    "discipline": "structural",
+    "text": "Wall W7 thickness 150mm differs from A201 200mm",
+    "cv_confidence": 0.86,
+    "evidence_regions": [
+      "S401:x220,y140,w180,h70",
+      "A201:x210,y130,w170,h68"
+    ]
+  }
+]
